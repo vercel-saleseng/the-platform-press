@@ -39,7 +39,7 @@ getArticles();
 getArticleBySlug();
 getCategories();
 getAuthorById();
-// ... and more
+// .. and more
 ```
 
 To integrate your own CMS, simply replace the implementation in `lib/cms` while maintaining the same interface.
