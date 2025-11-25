@@ -1,10 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
+  cacheComponents: true,
   reactCompiler: true,
-  experimental: {
-    cacheComponents: true,
-  },
   async redirects() {
     return [
       {

@@ -22,6 +22,9 @@ export const metadata: Metadata = {
     default: "The Platform Press",
     template: "%s | The Platform Press",
   },
+  metadataBase: process.env.VERCEL_URL
+    ? `https://${process.env.VERCEL_URL}`
+    : "http://localhost:3000",
   description:
     "Your source for the latest news, analysis, and insights from around the world.",
   icons: {
